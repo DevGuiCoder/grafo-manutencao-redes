@@ -1,0 +1,27 @@
+node_modules/
+dist/
+*.tsbuildinfo
+test-results/
+playwright-report/
+.qa/
+
+# Local documentation and verification material are not part of the app.
+/*.md
+/docs/
+/artifacts/
+/examples/
+/scripts/
+/e2e/
+/src/tests/
+/playwright.config.ts
+/public/fonts/
+/.publish-check/
+
+# Machine-local files and credentials.
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
